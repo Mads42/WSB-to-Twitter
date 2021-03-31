@@ -1,11 +1,11 @@
 import praw
 from tickers import allTickers
 reddit = praw.Reddit(
-    client_id="k2ni5gfsVT3a_g",
-    client_secret="cLx5dfXPYf_EGHYo0tmwGekz-NgbTQ",
-    password="Bumbeans1",
-    user_agent="testscript",
-    username="BagComprehensive7602",
+    client_id="",
+    client_secret="",
+    password="",
+    user_agent="",
+    username="",
 )
 subreddit = reddit.subreddit('wallstreetbets')
 hot_WSB = subreddit.hot(limit=5) # including pinned posts limits posts read
